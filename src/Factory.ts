@@ -13,6 +13,7 @@ import Mouths from '@/parts/Mouths';
 // Takes props, fills in any missing values with randoms
 export default (props: IOptionalAvatarProps = {}): IAvatarProps => ({
   isCircle: props.isCircle === undefined ? false : props.isCircle,
+  circleColor: props.circleColor ?? undefined,
   skinColor: props.skinColor ?? getRandomKey(SkinColors),
   hairColor: props.hairColor ?? getRandomKey(HairColors),
   eyes: props.eyes ?? getRandomKey(Eyes),
