@@ -7,8 +7,8 @@ import Tops from '@/parts/Tops';
 import FacialHair from '@/parts/FacialHair';
 import GraphicShirt from '@/parts/GraphicShirt';
 import Eyes from '@/parts/Eyes';
-import Eyebrows from './parts/Eyebrows';
-import Mouths from './parts/Mouths';
+import Eyebrows from '@/parts/Eyebrows';
+import Mouths from '@/parts/Mouths';
 
 const makeCircle = (fill = '#6fb8e0'): VNode[] => [
   h('g', {

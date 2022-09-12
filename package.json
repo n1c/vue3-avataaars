@@ -1,6 +1,18 @@
 {
   "name": "vue3-avatar",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "type":"module",
+  "files":[
+    "dist"
+  ],
+  "main": "./dist/vue3-avatar.umd.cjs",
+  "module": "./dist/vue3-avatar.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue3-avatar.js",
+      "require": "./dist/vue3-avatar.umd.cjs"
+    }
+  },
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",
