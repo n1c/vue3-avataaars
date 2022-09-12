@@ -1,0 +1,49 @@
+{
+  "name": "vue3-avatar",
+  "version": "1.0.0",
+  "type":"module",
+  "author": "Nic M <hi@n1c.dev>",
+  "files":[
+    "dist"
+  ],
+  "main": "./dist/vue3-avatar.umd.cjs",
+  "module": "./dist/vue3-avatar.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue3-avatar.js",
+      "require": "./dist/vue3-avatar.umd.cjs"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "run-p type-check build-only",
+    "preview": "vite preview --port 4173",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --noEmit",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/n1c/vue3-avatar.git"
+  },
+  "dependencies": {
+    "vue": "^3.2.38"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.1.4",
+    "@types/node": "^16.11.56",
+    "@vitejs/plugin-vue": "^3.0.3",
+    "@vue/eslint-config-airbnb": "^7.0.0",
+    "@vue/eslint-config-typescript": "^11.0.1",
+    "@vue/tsconfig": "^0.1.3",
+    "eslint": "^8.22.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-import-resolver-typescript": "^3.5.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-vue": "^9.4.0",
+    "npm-run-all": "^4.1.5",
+    "typescript": "~4.7.4",
+    "vite": "^3.0.9",
+    "vue-tsc": "^0.40.7"
+  }
+}
