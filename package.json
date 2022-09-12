@@ -1,7 +1,8 @@
 {
   "name": "vue3-avatar",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "type":"module",
+  "author": "Nic M <hi@n1c.dev>",
   "files":[
     "dist"
   ],
@@ -20,6 +21,10 @@
     "build-only": "vite build",
     "type-check": "vue-tsc --noEmit",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/n1c/vue3-avatar.git"
   },
   "dependencies": {
     "vue": "^3.2.38"
