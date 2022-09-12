@@ -1,4 +1,4 @@
-# vue3-avatar
+# vue3-avataaars
 
 @TODO:
 

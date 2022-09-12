@@ -13,9 +13,9 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, 'src/main.ts'),
-      name: 'vue3-avatar',
+      name: 'vue3-avataaars',
       // the proper extensions will be added
-      fileName: 'vue3-avatar',
+      fileName: 'vue3-avataaars',
     },
     rollupOptions: {
       external: ['vue'],

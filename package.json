@@ -1,17 +1,17 @@
 {
-  "name": "vue3-avatar",
+  "name": "vue3-avataaars",
   "version": "1.0.0",
   "type":"module",
   "author": "Nic M <hi@n1c.dev>",
   "files":[
     "dist"
   ],
-  "main": "./dist/vue3-avatar.umd.cjs",
-  "module": "./dist/vue3-avatar.js",
+  "main": "./dist/vue3-avataaars.umd.cjs",
+  "module": "./dist/vue3-avataaars.js",
   "exports": {
     ".": {
-      "import": "./dist/vue3-avatar.js",
-      "require": "./dist/vue3-avatar.umd.cjs"
+      "import": "./dist/vue3-avataaars.js",
+      "require": "./dist/vue3-avataaars.umd.cjs"
     }
   },
   "scripts": {
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/n1c/vue3-avatar.git"
+    "url": "https://github.com/n1c/vue3-avataaars.git"
   },
   "dependencies": {
     "vue": "^3.2.38"

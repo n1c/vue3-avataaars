@@ -68,7 +68,7 @@ export default (props: IAvatarProps) => {
     xmlns: 'http://www.w3.org/2000/svg',
     'xmlns:xlink': 'http://www.w3.org/1999/xlink',
   }, [
-    h('desc', 'vue3-avatars'),
+    h('desc', 'vue3-avataaars'),
     h('defs', [
       h('circle', {
         id: 'path-1',
