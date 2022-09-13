@@ -2,9 +2,7 @@
 
 Simple random avatar generation for Vue3.
 
-![Random Example 1](https://vue3-avataaars.com/svg?isCircle=false&skinColor=D08B5B&hairColor=F59797&topColor=5199E4&clothesColor=3C4F5C&facialHairColor=724133&eyes=Dizzy&eyebrows=UpDown&mouth=Eating&top=ShortHairDreads01&clothes=Hoodie&graphicShirt=Skull&facialHair=BeardMedium&accessories=Wayfarers)
-![Random Example 2](https://vue3-avataaars.com/svg?isCircle=true&skinColor=F8D25C&hairColor=2C1B18&topColor=B1E2FF&clothesColor=929598&facialHairColor=D6B370&eyes=Squint&eyebrows=RaisedExcited&mouth=Twinkle&top=LongHairStraight&clothes=BlazerShirt&graphicShirt=Resist&facialHair=Blank&accessories=Prescription01)
-![Random Example 3](https://vue3-avataaars.com/svg?isCircle=false&skinColor=F8D25C&hairColor=B58143&topColor=FF5C5C&clothesColor=E6E6E6&facialHairColor=D6B370&eyes=Close&eyebrows=Angry&mouth=ScreamOpen&top=Hijab&clothes=GraphicShirt&graphicShirt=Deer&facialHair=Blank&accessories=Prescription02)
+<img src="https://vue3-avataaars.com/svg?isCircle=false&skinColor=D08B5B&hairColor=F59797&topColor=5199E4&clothesColor=3C4F5C&facialHairColor=724133&eyes=Dizzy&eyebrows=UpDown&mouth=Eating&top=ShortHairDreads01&clothes=Hoodie&graphicShirt=Skull&facialHair=BeardMedium&accessories=Wayfarers" height="300" /><img src="https://vue3-avataaars.com/svg?isCircle=true&skinColor=F8D25C&hairColor=2C1B18&topColor=B1E2FF&clothesColor=929598&facialHairColor=D6B370&eyes=Squint&eyebrows=RaisedExcited&mouth=Twinkle&top=LongHairStraight&clothes=BlazerShirt&graphicShirt=Resist&facialHair=Blank&accessories=Prescription01" height="300" /><img src="https://vue3-avataaars.com/svg?isCircle=false&skinColor=F8D25C&hairColor=B58143&topColor=FF5C5C&clothesColor=E6E6E6&facialHairColor=D6B370&eyes=Close&eyebrows=Angry&mouth=ScreamOpen&top=Hijab&clothes=GraphicShirt&graphicShirt=Deer&facialHair=Blank&accessories=Prescription02" height="300" />
 
 Implemented with [avataaars](https://avataaars.com/) designed by [Pablo Stanley](https://twitter.com/pablostanley) and inspired by 
 Or Gordin's [vuejs-avataaars](https://github.com/orgordin/vuejs-avataaars).
