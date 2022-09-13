@@ -1,46 +1,57 @@
 # vue3-avataaars
 
-@TODO:
+Simple random avatar generation for Vue3.
 
-## Recommended IDE Setup
+![Random Example 1](https://vue3-avataaars.com/svg?isCircle=false&skinColor=D08B5B&hairColor=F59797&topColor=5199E4&clothesColor=3C4F5C&facialHairColor=724133&eyes=Dizzy&eyebrows=UpDown&mouth=Eating&top=ShortHairDreads01&clothes=Hoodie&graphicShirt=Skull&facialHair=BeardMedium&accessories=Wayfarers)
+![Random Example 2](https://vue3-avataaars.com/svg?isCircle=true&skinColor=F8D25C&hairColor=2C1B18&topColor=B1E2FF&clothesColor=929598&facialHairColor=D6B370&eyes=Squint&eyebrows=RaisedExcited&mouth=Twinkle&top=LongHairStraight&clothes=BlazerShirt&graphicShirt=Resist&facialHair=Blank&accessories=Prescription01)
+![Random Example 3](https://vue3-avataaars.com/svg?isCircle=false&skinColor=F8D25C&hairColor=B58143&topColor=FF5C5C&clothesColor=E6E6E6&facialHairColor=D6B370&eyes=Close&eyebrows=Angry&mouth=ScreamOpen&top=Hijab&clothes=GraphicShirt&graphicShirt=Deer&facialHair=Blank&accessories=Prescription02)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Implemented with [avataaars](https://avataaars.com/) designed by [Pablo Stanley](https://twitter.com/pablostanley) and inspired by 
+Or Gordin's [vuejs-avataaars](https://github.com/orgordin/vuejs-avataaars).
 
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
-
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
+## Installation
 
 ```sh
-npm install
+npm install vue3-avataaars
 ```
 
-### Compile and Hot-Reload for Development
+## Usage
 
-```sh
-npm run dev
+While the library enables random avatars, the component itself requires a full set of parameters. The assumption here is that it is useful to know what parameters went into creating an avatar. For example, so that those parameters can be persisted.
+
+```ts
+import { Avatar, Factory } from 'vue3-avataaars';
+const props = Factory()
 ```
 
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
+```vue
+<Avatar v-bind="props" />
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+## Parameters
 
-```sh
-npm run lint
+The list of available parameters can be viewed in [Types.ts](https://github.com/n1c/vue3-avataaars/blob/a2736148cfb8fb5701a778ac0941fe8bcefbeced/src/Types.ts#L17).
+
+```ts
+{
+  isCircle: boolean, // Place avatar in a background-circle
+
+  circleColor?: Hex,
+  hairColor: Hex,
+  skinColor: Hex,
+  clothesColor: Hex,
+  topColor: Hex,
+  facialHairColor: Hex,
+
+  clothes: keyof typeof Clothes,
+  graphicShirt: keyof typeof GraphicShirt,
+  top: keyof typeof Tops,
+  accessories: keyof typeof Accessories,
+  facialHair: keyof typeof FacialHair,
+  eyes: keyof typeof Eyes,
+  eyebrows: keyof typeof Eyebrows,
+  mouth: keyof typeof Mouths,
+}
 ```
+
+A very simple implementation can be seen in action at [vue3-avataaars.com](https://vue3-avataaars.com/)
