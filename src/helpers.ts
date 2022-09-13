@@ -6,3 +6,7 @@ function getRandomElement(input: Array<string>): string {
 export function getRandomKey(input: Record<string, unknown>): string {
   return getRandomElement(Object.keys(input));
 }
+
+export function getRandomValue<T>(input: Record<string, T>): T {
+  return input[getRandomKey(input)];
+}

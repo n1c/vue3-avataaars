@@ -1,6 +1,5 @@
 import { h, type VNode } from 'vue';
 import type { ColorList, IAvatarProps } from '@/Types';
-import { HairColors, HatAndShirtColors, SkinColors } from '@/Colors';
 import Accessories from '@/parts/Accessories';
 import Clothes from '@/parts/Clothes';
 import Tops from '@/parts/Tops';
@@ -56,10 +55,10 @@ const makeCircle = (fill = '#6fb8e0'): VNode[] => [
 
 export default (props: IAvatarProps) => {
   const css: ColorList = {
-    '--avataaar-hair-color': HairColors[props.hairColor],
-    '--avataaar-facial-hair-color': HairColors[props.facialHairColor],
-    '--avataaar-top-color': HatAndShirtColors[props.topColor],
-    '--avataaar-shirt-color': HatAndShirtColors[props.clothesColor],
+    '--avataaar-hair-color': props.hairColor,
+    '--avataaar-facial-hair-color': props.facialHairColor,
+    '--avataaar-top-color': props.topColor,
+    '--avataaar-shirt-color': props.clothesColor,
   };
 
   return h('svg', {
@@ -125,7 +124,7 @@ export default (props: IAvatarProps) => {
                   }),
                 ]),
                 h('use', {
-                  fill: SkinColors[props.skinColor],
+                  fill: props.skinColor,
                   'xlink:href': '#path-silhouette',
                 }),
                 h('path', {
