@@ -1,4 +1,3 @@
-/* eslint-disable global-require */
 import type { ColorList } from '@/Types';
 
 export const HatAndShirtColors: ColorList = {

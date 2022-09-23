@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import Avatar from '@/Avatar';
 import Factory from '@/Factory';
+import FactoryUrl from '@/FactoryUrl';
 </script>
 
 <template>
@@ -65,4 +66,13 @@ import Factory from '@/Factory';
       width: 200,
     }"
   />
+
+  <ul>
+    <li
+      v-for="i in 5"
+      :key="i"
+    >
+      {{ FactoryUrl() }}
+    </li>
+  </ul>
 </template>

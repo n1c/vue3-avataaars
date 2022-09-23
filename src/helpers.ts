@@ -1,5 +1,5 @@
 /* eslint-disable import/prefer-default-export */
-function getRandomElement(input: Array<string>): string {
+export function getRandomElement(input: Array<string>): string {
   return input[Math.floor(Math.random() * input.length)];
 }
 

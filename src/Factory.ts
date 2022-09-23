@@ -1,14 +1,7 @@
 import type { IAvatarProps, IOptionalAvatarProps } from '@/Types';
-import { getRandomKey, getRandomValue } from '@/helpers';
+import { getRandomElement, getRandomValue } from '@/helpers';
 import { HairColors, HatAndShirtColors, SkinColors } from '@/Colors';
-import Accessories from '@/parts/Accessories';
-import Tops from '@/parts/Tops';
-import Clothes from '@/parts/Clothes';
-import FacialHair from '@/parts/FacialHair';
-import GraphicShirt from '@/parts/GraphicShirt';
-import Eyes from '@/parts/Eyes';
-import Eyebrows from '@/parts/Eyebrows';
-import Mouths from '@/parts/Mouths';
+import * as Options from '@/Options';
 
 // Takes props, fills in any missing values with randoms
 export default (props: IOptionalAvatarProps = {}): IAvatarProps => ({
@@ -21,12 +14,12 @@ export default (props: IOptionalAvatarProps = {}): IAvatarProps => ({
   clothesColor: props.clothesColor ?? getRandomValue(HatAndShirtColors),
   facialHairColor: props.facialHairColor ?? getRandomValue(HairColors),
 
-  eyes: props.eyes ?? getRandomKey(Eyes),
-  eyebrows: props.eyebrows ?? getRandomKey(Eyebrows),
-  mouth: props.mouth ?? getRandomKey(Mouths),
-  top: props.top ?? getRandomKey(Tops),
-  clothes: props.clothes ?? getRandomKey(Clothes),
-  graphicShirt: props.graphicShirt ?? getRandomKey(GraphicShirt),
-  facialHair: props.facialHair ?? getRandomKey(FacialHair),
-  accessories: props.accessories ?? getRandomKey(Accessories),
+  accessories: props.accessories ?? getRandomElement(Options.Accessories),
+  eyes: props.eyes ?? getRandomElement(Options.Eyes),
+  eyebrows: props.eyebrows ?? getRandomElement(Options.Eyebrows),
+  mouth: props.mouth ?? getRandomElement(Options.Mouths),
+  top: props.top ?? getRandomElement(Options.Tops),
+  clothes: props.clothes ?? getRandomElement(Options.Clothes),
+  graphicShirt: props.graphicShirt ?? getRandomElement(Options.GraphicShirt),
+  facialHair: props.facialHair ?? getRandomElement(Options.FacialHair),
 });
