@@ -16,5 +16,4 @@ const FacialHair: ComponentList = {
   MoustacheMagnum,
 };
 
-export const Options = Object.keys(FacialHair);
 export default FacialHair;

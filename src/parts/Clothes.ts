@@ -22,5 +22,4 @@ const Clothes: ComponentList = {
   ShirtScoopNeck,
 };
 
-export const Options = Object.keys(Clothes);
 export default Clothes;
