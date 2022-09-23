@@ -75,6 +75,4 @@ import FactoryUrl from '@/FactoryUrl';
       {{ FactoryUrl() }}
     </li>
   </ul>
-
-
 </template>
