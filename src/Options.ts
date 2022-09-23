@@ -1,5 +1,22 @@
 /* eslint-disable global-require */
 import type { ColorList } from '@/Types';
+import { Options as Accessories } from '@/parts/Accessories';
+import { Options as Eyes } from '@/parts/Eyes';
+import { Options as Eyebrows } from '@/parts/Eyebrows';
+import { Options as FacialHair } from '@/parts/FacialHair';
+import { Options as Mouths } from '@/parts/Mouths';
+import { Options as Tops } from '@/parts/Tops';
+import { Options as Clothes } from '@/parts/Clothes';
+import { Options as GraphicShirt } from '@/parts/GraphicShirt';
+
+export const AccessoriesOptions = Accessories;
+export const EyesOptions = Eyes;
+export const EyebrowsOptions = Eyebrows;
+export const FacialHairOptions = FacialHair;
+export const MouthsOptions = Mouths;
+export const TopsOptions = Tops;
+export const ClothesOptions = Clothes;
+export const GraphicShirtOptions = GraphicShirt;
 
 export const HatAndShirtColors: ColorList = {
   Black: '#262E33',

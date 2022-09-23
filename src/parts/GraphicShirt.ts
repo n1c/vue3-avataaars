@@ -26,4 +26,5 @@ const GraphicShirt: ComponentList = {
   Skull,
 };
 
+export const Options = Object.keys(GraphicShirt);
 export default GraphicShirt;

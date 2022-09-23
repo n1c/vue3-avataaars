@@ -76,4 +76,5 @@ const Tops: ComponentList = {
   WinterHat4,
 };
 
+export const Options = Object.keys(Tops);
 export default Tops;

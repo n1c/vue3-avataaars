@@ -28,4 +28,5 @@ const Eyes: ComponentList = {
   WinkWacky,
 };
 
+export const Options = Object.keys(Eyes);
 export default Eyes;

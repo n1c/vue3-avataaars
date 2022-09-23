@@ -30,4 +30,5 @@ const Eyebrows: ComponentList = {
   UpDown,
 };
 
+export const Options = Object.keys(Eyebrows);
 export default Eyebrows;

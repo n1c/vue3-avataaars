@@ -28,4 +28,5 @@ const Mouths: ComponentList = {
   Vomit,
 };
 
+export const Options = Object.keys(Mouths);
 export default Mouths;

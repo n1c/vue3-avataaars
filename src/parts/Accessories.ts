@@ -19,3 +19,4 @@ const Accessories: ComponentList = {
 };
 
 export default Accessories;
+export const Options = Object.keys(Accessories);
