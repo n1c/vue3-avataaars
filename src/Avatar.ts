@@ -21,13 +21,13 @@ const makeCircle = (fill = '#6fb8e0'): VNode[] => [
       fill: 'white',
     }, [
       h('use', {
-        'href': '#path-1',
+        href: '#path-1',
       }),
     ]),
     h('use', {
       id: 'Circle-Background',
       fill: '#E6E6E6',
-      'href': '#path-1',
+      href: '#path-1',
     }),
     h('g', {
       id: 'Color/Palette/Blue-01',
@@ -48,7 +48,7 @@ const makeCircle = (fill = '#6fb8e0'): VNode[] => [
     fill: 'white',
   }, [
     h('use', {
-      'href': '#path-2',
+      href: '#path-2',
     }),
   ]),
 ];
@@ -120,12 +120,12 @@ export default (props: IAvatarProps) => {
                   fill: 'white',
                 }, [
                   h('use', {
-                    'href': '#path-silhouette',
+                    href: '#path-silhouette',
                   }),
                 ]),
                 h('use', {
                   fill: props.skinColor,
-                  'href': '#path-silhouette',
+                  href: '#path-silhouette',
                 }),
                 h('path', {
                   id: 'Neck-Shadow',
