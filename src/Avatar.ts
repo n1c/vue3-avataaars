@@ -101,69 +101,68 @@ export default (props: IAvatarProps) => {
           props.isCircle ? makeCircle(props.circleColor) : null,
           h('g', {
             id: 'Mask',
+          }),
+          h('g', {
+            id: 'Avataaar',
+            'stroke-width': '1',
+            'fill-rule': 'evenodd',
+            fill: 'black',
+            mask: 'url(#mask-2)',
+            style: css,
           }, [
+            // Body
             h('g', {
-              id: 'Avataaar',
-              'stroke-width': '1',
-              'fill-rule': 'evenodd',
-              fill: 'black',
-              mask: 'url(#mask-2)',
-              style: css,
+              id: 'Body',
+              transform: 'translate(32.000000, 36.000000)',
             }, [
-              // Body
-              h('g', {
-                id: 'Body',
-                transform: 'translate(32.000000, 36.000000)',
+              h('mask', {
+                id: 'mask-silhouette',
+                fill: 'white',
               }, [
-                h('mask', {
-                  id: 'mask-silhouette',
-                  fill: 'white',
-                }, [
-                  h('use', {
-                    href: '#path-silhouette',
-                  }),
-                ]),
                 h('use', {
-                  fill: props.skinColor,
                   href: '#path-silhouette',
                 }),
-                h('path', {
-                  id: 'Neck-Shadow',
-                  d: 'M156,79 L156,102 C156,132.927946 130.927946,158 100,158 C69.072054,158 44,132.927946 44,102 L44,79 L44,94 C44,124.927946 69.072054,150 100,150 C130.927946,150 156,124.927946 156,94 L156,79 Z',
-                  'fill-opacity': '0.100000001',
-                  fill: '#000000',
-                  mask: 'url(#mask-silhouette)',
-                }),
               ]),
-              h(Clothes[props.clothes]),
-              props.clothes === 'GraphicShirt' ? h(GraphicShirt[props.graphicShirt]) : null,
-              h(Eyes[props.eyes]),
-              h(Eyebrows[props.eyebrows]),
-              h(Mouths[props.mouth]),
+              h('use', {
+                fill: props.skinColor,
+                href: '#path-silhouette',
+              }),
+              h('path', {
+                id: 'Neck-Shadow',
+                d: 'M156,79 L156,102 C156,132.927946 130.927946,158 100,158 C69.072054,158 44,132.927946 44,102 L44,79 L44,94 C44,124.927946 69.072054,150 100,150 C130.927946,150 156,124.927946 156,94 L156,79 Z',
+                'fill-opacity': '0.100000001',
+                fill: '#000000',
+                mask: 'url(#mask-silhouette)',
+              }),
+            ]),
+            h(Clothes[props.clothes]),
+            props.clothes === 'GraphicShirt' ? h(GraphicShirt[props.graphicShirt]) : null,
+            h(Eyes[props.eyes]),
+            h(Eyebrows[props.eyebrows]),
+            h(Mouths[props.mouth]),
 
-              // Nose
-              h('svg', [
+            // Nose
+            h('svg', [
+              h('g', {
+                fill: 'black',
+                transform: 'translate(76.000000, 82.000000)',
+              }, [
                 h('g', {
-                  fill: 'black',
-                  transform: 'translate(76.000000, 82.000000)',
+                  id: 'Nose/Default',
+                  transform: 'translate(28.000000, 40.000000)',
+                  opacity: '0.16',
                 }, [
-                  h('g', {
-                    id: 'Nose/Default',
-                    transform: 'translate(28.000000, 40.000000)',
-                    opacity: '0.16',
-                  }, [
-                    h('path', {
-                      id: 'Nose',
-                      d: 'M16,8 C16,12.418278 21.372583,16 28,16 L28,16 C34.627417,16 40,12.418278 40,8',
-                    }),
-                  ]),
+                  h('path', {
+                    id: 'Nose',
+                    d: 'M16,8 C16,12.418278 21.372583,16 28,16 L28,16 C34.627417,16 40,12.418278 40,8',
+                  }),
                 ]),
               ]),
-
-              h(Tops[props.top]),
-              h(FacialHair[props.facialHair]),
-              h(Accessories[props.accessories]),
             ]),
+
+            h(Tops[props.top]),
+            h(FacialHair[props.facialHair]),
+            h(Accessories[props.accessories]),
           ]),
         ]),
       ]),
