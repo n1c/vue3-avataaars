@@ -14,13 +14,13 @@
         id="react-mask-1154"
         fill="white"
       >
-        <use xlink:href="#react-path-1153" />
+        <use href="#react-path-1153" />
       </mask>
       <use
         id="Clothes"
         fill="#E6E6E6"
         fill-rule="evenodd"
-        xlink:href="#react-path-1153"
+        href="#react-path-1153"
       />
       <g
         id="Color/Palette/"

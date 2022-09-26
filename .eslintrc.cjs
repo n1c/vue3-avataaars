@@ -20,6 +20,7 @@ module.exports = {
   rules: {
     'import/no-extraneous-dependencies': 'off',
     'import/extensions': ['error', 'never'],
+    'no-plusplus': 'off',
     'vue/multi-word-component-names': 'off',
     'vue/max-attributes-per-line': [
       'error', {

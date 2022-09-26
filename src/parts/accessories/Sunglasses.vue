@@ -86,11 +86,11 @@
           <use
             fill-opacity="0.700000048"
             fill="#000000"
-            xlink:href="#react-path-1161"
+            href="#react-path-1161"
           />
           <use
             fill="url(#react-linear-gradient-1164)"
-            xlink:href="#react-path-1161"
+            href="#react-path-1161"
             style="mix-blend-mode: screen;"
           />
         </g>
@@ -98,11 +98,11 @@
           <use
             fill-opacity="0.700000048"
             fill="#000000"
-            xlink:href="#react-path-1162"
+            href="#react-path-1162"
           />
           <use
             fill="url(#react-linear-gradient-1165)"
-            xlink:href="#react-path-1162"
+            href="#react-path-1162"
             style="mix-blend-mode: screen;"
           />
         </g>

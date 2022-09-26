@@ -74,12 +74,12 @@
               fill-opacity="0.700000048"
               fill="#000000"
               fill-rule="evenodd"
-              xlink:href="#react-path-1157"
+              href="#react-path-1157"
             />
             <use
               fill="url(#react-linear-gradient-1160)"
               fill-rule="evenodd"
-              xlink:href="#react-path-1157"
+              href="#react-path-1157"
               style="mix-blend-mode: screen;"
             />
           </g>
@@ -88,12 +88,12 @@
               fill-opacity="0.700000048"
               fill="#000000"
               fill-rule="evenodd"
-              xlink:href="#react-path-1158"
+              href="#react-path-1158"
             />
             <use
               fill="url(#react-linear-gradient-1160)"
               fill-rule="evenodd"
-              xlink:href="#react-path-1158"
+              href="#react-path-1158"
               style="mix-blend-mode: screen;"
             />
           </g>
