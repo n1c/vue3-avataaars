@@ -6,7 +6,9 @@ import type { IAvatarProps } from '@/Types';
 
 const params: IAvatarProps[] = [];
 for (let i = 0; i < 3; i++) {
-  params.push(Factory());
+  params.push(Factory({
+    isCircle: i % 2 === 1,
+  }));
 }
 </script>
 
@@ -34,6 +36,7 @@ for (let i = 0; i < 3; i++) {
       <img
         :src="FactoryUrl(e)"
         alt=""
+        width="200"
       >
     </a>
   </div>

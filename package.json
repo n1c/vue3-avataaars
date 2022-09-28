@@ -1,6 +1,6 @@
 {
   "name": "vue3-avataaars",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "type": "module",
   "author": "Nic M <hi@n1c.dev>",
   "files": [
@@ -28,10 +28,12 @@
     "url": "https://github.com/n1c/vue3-avataaars.git"
   },
   "dependencies": {
+    "md5": "^2.3.0",
     "vue": "^3.2.38"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.1.4",
+    "@types/md5": "^2.3.2",
     "@types/node": "^16.11.56",
     "@vitejs/plugin-vue": "^3.0.3",
     "@vue/eslint-config-airbnb": "^7.0.0",
