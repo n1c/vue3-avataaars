@@ -34,7 +34,7 @@ describe('Options', () => {
   it('All components exist for options', () => {
     Object.keys(options).forEach((key) => {
       options[key].forEach((o) => {
-        const p = join(__dirname, 'parts', key, `${o}.vue`);
+        const p = join(__dirname, 'parts', key, `${o}.svg`);
         expect(existsSync(p)).toBe(true);
       });
     });

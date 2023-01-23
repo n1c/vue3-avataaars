@@ -1,5 +1,4 @@
-/* eslint-disable no-multiple-empty-lines */
-import type { VNode } from 'vue';
+import type { EmitsOptions, FunctionalComponent, SVGAttributes } from 'vue';
 import type Accessories from '@/parts/Accessories';
 import type Clothes from '@/parts/Clothes';
 import type Tops from '@/parts/Tops';
@@ -12,7 +11,7 @@ import type Mouths from '@/parts/Mouths';
 export type Hex = `#${string}`;
 export type ColorList = Record<string, Hex>;
 
-export type ComponentList = Record<string, VNode>;
+export type ComponentList = Record<string, FunctionalComponent<SVGAttributes, EmitsOptions>>;
 
 export interface IAvatarProps {
   isCircle: boolean,

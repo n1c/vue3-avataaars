@@ -1,16 +1,16 @@
 import type { ComponentList } from '@/Types';
 
-import Bat from '@/parts/graphicShirt/Bat.vue';
-import Cumbia from '@/parts/graphicShirt/Cumbia.vue';
-import Diamond from '@/parts/graphicShirt/Diamond.vue';
-import Pizza from '@/parts/graphicShirt/Pizza.vue';
-import Selena from '@/parts/graphicShirt/Selena.vue';
-import SkullOutline from '@/parts/graphicShirt/SkullOutline.vue';
-import Bear from '@/parts/graphicShirt/Bear.vue';
-import Deer from '@/parts/graphicShirt/Deer.vue';
-import Hola from '@/parts/graphicShirt/Hola.vue';
-import Resist from '@/parts/graphicShirt/Resist.vue';
-import Skull from '@/parts/graphicShirt/Skull.vue';
+import Bat from '@/parts/graphicShirt/Bat.svg?component';
+import Cumbia from '@/parts/graphicShirt/Cumbia.svg?component';
+import Diamond from '@/parts/graphicShirt/Diamond.svg?component';
+import Pizza from '@/parts/graphicShirt/Pizza.svg?component';
+import Selena from '@/parts/graphicShirt/Selena.svg?component';
+import SkullOutline from '@/parts/graphicShirt/SkullOutline.svg?component';
+import Bear from '@/parts/graphicShirt/Bear.svg?component';
+import Deer from '@/parts/graphicShirt/Deer.svg?component';
+import Hola from '@/parts/graphicShirt/Hola.svg?component';
+import Resist from '@/parts/graphicShirt/Resist.svg?component';
+import Skull from '@/parts/graphicShirt/Skull.svg?component';
 
 const GraphicShirt: ComponentList = {
   Bat,

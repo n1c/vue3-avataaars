@@ -1,17 +1,17 @@
 import type { ComponentList } from '@/Types';
 
-import Close from '@/parts/eyes/Close.vue';
-import Default from '@/parts/eyes/Default.vue';
-import EyeRoll from '@/parts/eyes/EyeRoll.vue';
-import Hearts from '@/parts/eyes/Hearts.vue';
-import Squint from '@/parts/eyes/Squint.vue';
-import Wink from '@/parts/eyes/Wink.vue';
-import Cry from '@/parts/eyes/Cry.vue';
-import Dizzy from '@/parts/eyes/Dizzy.vue';
-import Happy from '@/parts/eyes/Happy.vue';
-import Side from '@/parts/eyes/Side.vue';
-import Surprised from '@/parts/eyes/Surprised.vue';
-import WinkWacky from '@/parts/eyes/WinkWacky.vue';
+import Close from '@/parts/eyes/Close.svg?component';
+import Default from '@/parts/eyes/Default.svg?component';
+import EyeRoll from '@/parts/eyes/EyeRoll.svg?component';
+import Hearts from '@/parts/eyes/Hearts.svg?component';
+import Squint from '@/parts/eyes/Squint.svg?component';
+import Wink from '@/parts/eyes/Wink.svg?component';
+import Cry from '@/parts/eyes/Cry.svg?component';
+import Dizzy from '@/parts/eyes/Dizzy.svg?component';
+import Happy from '@/parts/eyes/Happy.svg?component';
+import Side from '@/parts/eyes/Side.svg?component';
+import Surprised from '@/parts/eyes/Surprised.svg?component';
+import WinkWacky from '@/parts/eyes/WinkWacky.svg?component';
 
 const Eyes: ComponentList = {
   Close,
