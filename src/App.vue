@@ -10,6 +10,26 @@ for (let i = 0; i < 3; i++) {
     isCircle: i % 2 === 1,
   }));
 }
+
+params.push(Factory({
+  isCircle: true,
+
+  circleColor: '#aabbaa',
+  hairColor: '#ff0000',
+  skinColor: '#ff00ff',
+  clothesColor: '#00ff00',
+  topColor: '#0000ff',
+  facialHairColor: '#0000ff',
+
+  clothes: 'BlazerShirt',
+  graphicShirt: 'Bat',
+  top: 'Eyepatch',
+  accessories: 'Round',
+  facialHair: 'BeardLight',
+  eyes: 'Dizzy',
+  eyebrows: 'UpDownNatural',
+  mouth: 'Eating',
+}));
 </script>
 
 <template>
