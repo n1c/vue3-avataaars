@@ -1,16 +1,7 @@
 <svg>
-  <g transform="translate(76.000000, 82.000000)">
-    <g
-      id="Mouth/Disbelief"
-      transform="translate(2.000000, 52.000000)"
-      opacity="0.699999988"
-      fill="#000000"
-    >
-      <path
-        id="Mouth"
-        d="M40,15 C40,22.7319865 46.2680135,29 54,29 L54,29 C61.7319865,29 68,22.7319865 68,15"
-        transform="translate(54.000000, 22.000000) scale(1, -1) translate(-54.000000, -22.000000) "
-      />
+  <g transform="translate(76 82)">
+    <g id="Mouth/Disbelief" fill="#000" opacity=".7" transform="translate(2 52)">
+      <path id="Mouth" d="M40 15c0 7.732 6.268 14 14 14s14-6.268 14-14" transform="matrix(1 0 0 -1 0 44)"/>
     </g>
   </g>
 </svg>

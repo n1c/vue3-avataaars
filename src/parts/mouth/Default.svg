@@ -1,14 +1,7 @@
 <svg>
-  <g transform="translate(76.000000, 82.000000)">
-    <g
-      id="Mouth/Default"
-      transform="translate(2.000000, 52.000000)"
-      opacity="0.699999988"
-    >
-      <path
-        id="Mouth"
-        d="M40,15 C40,22.7319865 46.2680135,29 54,29 L54,29 C61.7319865,29 68,22.7319865 68,15"
-      />
+  <g transform="translate(76 82)">
+    <g id="Mouth/Default" opacity=".7" transform="translate(2 52)">
+      <path id="Mouth" d="M40 15c0 7.732 6.268 14 14 14s14-6.268 14-14"/>
     </g>
   </g>
 </svg>
