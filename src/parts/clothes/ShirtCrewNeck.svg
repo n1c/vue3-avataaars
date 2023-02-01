@@ -1,0 +1,14 @@
+<svg>
+  <g id="Clothing/Shirt-Crew-Neck" transform="translate(0 170)">
+    <defs>
+      <path id="ShirtCrewNeck-path1" d="M165.96 29.295c36.976 3.03 66.04 34 66.04 71.757V110H32v-8.948c0-38.1 29.592-69.287 67.045-71.832-.03.373-.045.75-.045 1.128 0 11.863 14.998 21.48 33.5 21.48 18.502 0 33.5-9.617 33.5-21.48 0-.353-.013-.704-.04-1.053Z"/>
+    </defs>
+    <mask id="ShirtCrewNeck-mask1" fill="#fff">
+      <use href="#ShirtCrewNeck-path1"/>
+    </mask>
+    <use fill="var(--avataaar-shirt-color)" class="CustomColor" href="#ShirtCrewNeck-path1"/>
+    <g id="Shadowy" fill="#000" mask="url('#ShirtCrewNeck-mask1')" opacity=".16">
+      <ellipse id="Hola" cx="40.5" cy="27.848" rx="39.635" ry="26.914" transform="translate(92 4)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg>
+  <g transform="translate(76 82)">
+    <g id="Eyes/Eye-Roll" transform="translate(0 8)">
+      <circle id="Eyeball" cx="30" cy="22" r="14" fill="#FFF"/>
+      <circle id="The-white-stuff" cx="82" cy="22" r="14" fill="#FFF"/>
+      <circle cx="30" cy="14" r="6" class="CustomColor" opacity=".7"/>
+      <circle cx="82" cy="14" r="6" class="CustomColor" opacity=".7"/>
+    </g>
+  </g>
+</svg>

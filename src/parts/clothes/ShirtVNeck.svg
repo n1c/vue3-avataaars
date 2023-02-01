@@ -1,0 +1,11 @@
+<svg>
+  <g id="Clothing/Shirt-V-Neck" transform="translate(0 170)">
+    <defs>
+      <path id="ShirtVNeck-path1" d="M171.32 29.936C205.706 35.366 232 65.14 232 101.052V110H32v-8.948c0-35.914 26.294-65.686 60.682-71.116a23.896 23.896 0 0 0 7.554 13.603l29.085 26.229a4 4 0 0 0 5.358 0l29.085-26.229a24 24 0 0 0 1.234-1.196 23.888 23.888 0 0 0 6.322-12.407Z"/>
+    </defs>
+    <mask id="ShirtVNeck-mask1" fill="#fff">
+      <use href="#ShirtVNeck-path1"/>
+    </mask>
+    <use fill="var(--avataaar-shirt-color)" class="CustomColor" href="#ShirtVNeck-path1"/>
+  </g>
+</svg>

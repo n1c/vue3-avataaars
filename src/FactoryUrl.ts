@@ -3,7 +3,7 @@ import CleanProps from '@/CleanProps';
 import type { IOptionalAvatarProps } from '@/Types';
 import md5 from 'md5';
 
-export default (props: IOptionalAvatarProps = {}): string => {
+export default (props: IOptionalAvatarProps = {}, domain = 'vue3-avataaars.com'): string => {
   const fullProps = CleanProps(Factory(props)) as unknown as Record<string, string>;
   const hash = md5(JSON.stringify(fullProps));
 
@@ -11,7 +11,7 @@ export default (props: IOptionalAvatarProps = {}): string => {
     .toString()
     .replaceAll('%23', ''); // Remove # in colours
 
-  return `https://vue3-avataaars.com/svg?${query}`;
+  return `https://${domain}/svg?${query}`;
 };
 
 export const VerifyProps = (props: IOptionalAvatarProps, hash: string): boolean => {

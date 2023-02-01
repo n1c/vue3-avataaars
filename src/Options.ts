@@ -46,7 +46,7 @@ export const Eyebrows = [
 
 export const FacialHair = [
   'BeardMajestic',
-  'BeartLight',
+  'BeardLight',
   'MoustacheFancy',
   'BeardMedium',
   'Blank',

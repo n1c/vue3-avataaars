@@ -1,0 +1,12 @@
+<svg>
+  <g id="Clothing/Collar-+-Sweater" transform="translate(0 170)">
+    <defs>
+      <path id="CollarSweater-path1" d="M105.192 29.052H104c-39.765 0-72 32.235-72 72V110h200v-8.948c0-39.765-32.235-72-72-72h-1.192c.127.983.192 1.984.192 3 0 13.807-12.088 25-27 25s-27-11.193-27-25c0-1.016.065-2.017.192-3Z"/>
+    </defs>
+    <mask id="CollarSweater-mask1" fill="#fff">
+      <use href="#CollarSweater-path1"/>
+    </mask>
+    <use fill="var(--avataaar-shirt-color)" class="CustomColor" href="#CollarSweater-path1"/>
+    <path id="Collar" fill="#F2F2F2" d="M156 22.28c6.182 4.555 10 10.826 10 17.748 0 7.205-4.137 13.705-10.771 18.3l-5.65-4.452-4.579.332 1-3.151-.078-.061C152.022 47.853 156 42.7 156 36.876V22.28Zm-48-.709c-6.767 4.603-11 11.169-11 18.457 0 7.398 4.362 14.052 11.308 18.664l6.113-4.816 4.579.332-1-3.151.078-.061C111.978 47.853 108 42.7 108 36.876V21.572Z"/>
+  </g>
+</svg>

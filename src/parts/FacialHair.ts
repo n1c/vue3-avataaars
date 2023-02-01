@@ -1,15 +1,15 @@
 import type { ComponentList } from '@/Types';
 
-import BeardMajestic from '@/parts/facialHair/BeardMajestic.vue';
-import BeartLight from '@/parts/facialHair/BeartLight.vue';
-import MoustacheFancy from '@/parts/facialHair/MoustacheFancy.vue';
-import BeardMedium from '@/parts/facialHair/BeardMedium.vue';
-import Blank from '@/parts/facialHair/Blank.vue';
-import MoustacheMagnum from '@/parts/facialHair/MoustacheMagnum.vue';
+import BeardLight from '@/parts/facialHair/BeardLight.svg?component';
+import BeardMajestic from '@/parts/facialHair/BeardMajestic.svg?component';
+import MoustacheFancy from '@/parts/facialHair/MoustacheFancy.svg?component';
+import BeardMedium from '@/parts/facialHair/BeardMedium.svg?component';
+import Blank from '@/parts/facialHair/Blank.svg?component';
+import MoustacheMagnum from '@/parts/facialHair/MoustacheMagnum.svg?component';
 
 const FacialHair: ComponentList = {
   BeardMajestic,
-  BeartLight,
+  BeardLight,
   MoustacheFancy,
   BeardMedium,
   Blank,

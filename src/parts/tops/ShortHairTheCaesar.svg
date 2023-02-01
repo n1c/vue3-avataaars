@@ -1,0 +1,29 @@
+<svg>
+  <g id="Top">
+    <defs>
+      <path id="ShortHairTheCaesar-path1" d="M0 0h264v280H0z"/>
+      <path id="ShortHairTheCaesar-path2" d="M1 64c.347 1.488 1.673 1.223 2 0-.463-1.554 3.296-28.752 13-36 3.618-2.517 23.008-4.768 42.313-4.754C77.409 23.259 96.42 25.51 100 28c9.704 7.248 13.463 34.446 13 36 .327 1.223 1.653 1.488 2 0 .72-10.298 0-63.726-57-63C1 1.726.28 53.702 1 64Z"/>
+      <filter id="filter1" width="101.5%" height="108%" x="-.8%" y="-2%" filterUnits="objectBoundingBox">
+        <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+        <feColorMatrix in="shadowOffsetOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.16 0"/>
+        <feMerge>
+          <feMergeNode in="shadowMatrixOuter1"/>
+          <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+      </filter>
+    </defs>
+    <mask id="ShortHairTheCaesar-mask1" fill="#fff">
+      <use href="#ShortHairTheCaesar-path1"/>
+    </mask>
+    <g id="Top/Short-Hair/The-Caesar" mask="url('#ShortHairTheCaesar-mask1')">
+      <g transform="translate(-1)">
+        <g id="Hair" transform="translate(75 34)">
+          <mask id="ShortHairTheCaesar-mask2" fill="#fff">
+            <use href="#ShortHairTheCaesar-path2"/>
+          </mask>
+          <use fill="var(--avataaar-hair-color)" class="CustomColor" href="#ShortHairTheCaesar-path2"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

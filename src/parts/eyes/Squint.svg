@@ -1,0 +1,24 @@
+<svg>
+  <g transform="translate(76 82)">
+    <g id="Eyes/Squint" transform="translate(0 8)">
+      <defs>
+        <path id="Eye1" d="M14 14.048c9.61 0 14 4.451 14-2.486C28 4.624 21.732 0 14 0S0 4.624 0 11.562c0 6.937 4.39 2.486 14 2.486Z"/>
+        <path id="Eye2" d="M14 14.048c9.61 0 14 4.451 14-2.486C28 4.624 21.732 0 14 0S0 4.624 0 11.562c0 6.937 4.39 2.486 14 2.486Z"/>
+      </defs>
+      <g id="Eye" transform="translate(16 13)">
+        <mask id="EyeMask1" fill="#fff">
+          <use href="#Eye1"/>
+        </mask>
+        <use id="The-white-stuff" fill="#FFF" href="#Eye1"/>
+        <circle cx="14" cy="10" r="6" class="CustomColor" mask="url('#EyeMask1')" opacity=".7"/>
+      </g>
+      <g id="Eye" transform="translate(68 13)">
+        <mask id="EyeMask2" fill="#fff">
+          <use href="#Eye2"/>
+        </mask>
+        <use id="Eyeball-Mask" fill="#FFF" href="#Eye2"/>
+        <circle cx="14" cy="10" r="6" class="CustomColor" mask="url('#EyeMask2')" opacity=".7"/>
+      </g>
+    </g>
+  </g>
+</svg>

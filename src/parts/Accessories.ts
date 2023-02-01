@@ -1,12 +1,12 @@
 import type { ComponentList } from '@/Types';
 
-import Blank from '@/parts/accessories/Blank.vue';
-import Prescription01 from '@/parts/accessories/Prescription01.vue';
-import Round from '@/parts/accessories/Round.vue';
-import Wayfarers from '@/parts/accessories/Wayfarers.vue';
-import Kurt from '@/parts/accessories/Kurt.vue';
-import Prescription02 from '@/parts/accessories/Prescription02.vue';
-import Sunglasses from '@/parts/accessories/Sunglasses.vue';
+import Blank from '@/parts/accessories/Blank.svg?component';
+import Prescription01 from '@/parts/accessories/Prescription01.svg?component';
+import Round from '@/parts/accessories/Round.svg?component';
+import Wayfarers from '@/parts/accessories/Wayfarers.svg?component';
+import Kurt from '@/parts/accessories/Kurt.svg?component';
+import Prescription02 from '@/parts/accessories/Prescription02.svg?component';
+import Sunglasses from '@/parts/accessories/Sunglasses.svg?component';
 
 const Accessories: ComponentList = {
   Blank,

@@ -1,0 +1,15 @@
+<svg>
+  <g transform="translate(76 82)">
+    <g id="Mouth/Grimace" transform="translate(2 52)">
+      <defs>
+        <rect id="Grimace-path1" width="60" height="22" x="24" y="9" rx="11"/>
+      </defs>
+      <rect id="Mouth" width="64" height="26" x="22" y="7" fill="#000" opacity=".6" rx="13"/>
+      <mask id="Grimace-mask1" fill="#fff">
+        <use href="#Grimace-path1"/>
+      </mask>
+      <use id="Mouth" fill="#FFF" href="#Grimace-path1"/>
+      <path id="Grimace-Teeth" fill="#E6E6E6" d="M71 22h-9v12h-4V22h-9v12h-4V22h-9v12h-4V22h-8v-4h8V6h4v12h9V6h4v12h9V6h4v12h9V6h4v12h8.867v4H75v12h-4V22Z" mask="url('#Grimace-mask1')"/>
+    </g>
+  </g>
+</svg>

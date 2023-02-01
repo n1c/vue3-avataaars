@@ -1,0 +1,20 @@
+<svg>
+  <g transform="translate(76 82)">
+    <g id="Mouth/Concerned" transform="translate(2 52)">
+      <defs>
+        <path id="Mouth1" d="M35.118 15.128C36.176 24.62 44.226 32 54 32c9.804 0 17.874-7.426 18.892-16.96.082-.767-.775-2.04-1.85-2.04H37.088c-1.08 0-2.075 1.178-1.97 2.128Z"/>
+      </defs>
+      <mask id="MouthMask1" fill="#fff">
+        <use href="#Mouth1" transform="matrix(1 0 0 -1 0 45)"/>
+      </mask>
+      <use id="Mouth" fill="#000" href="#Mouth1" opacity=".7" transform="matrix(1 0 0 -1 0 45)"/>
+      <rect id="Teeth" width="31" height="16" x="39" y="2" fill="#FFF" mask="url('#MouthMask1')" rx="5"/>
+      <g id="Tongue" fill="#FF4F6D" mask="url('#MouthMask1')">
+        <g transform="translate(38 24)">
+          <circle id="friend?" cx="11" cy="11" r="11"/>
+          <circle id="How-you-doing" cx="21" cy="11" r="11"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

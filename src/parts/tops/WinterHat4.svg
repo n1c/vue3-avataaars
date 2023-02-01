@@ -1,0 +1,38 @@
+<svg>
+  <g id="Top">
+    <defs>
+      <path id="WinterHat4-path5" d="M0 0h264v280H0z"/>
+      <path id="WinterHat4-path1" d="M129.66 38.357A60.834 60.834 0 0 1 134 61v8H2v-8c0-8.025 1.55-15.688 4.366-22.707C-.037 24.83-1.28 13.773 2.636 5.12c7.505-2.276 16.198-.47 26.08 5.419C38.486 3.888 50.289 0 63 0h10c12.722 0 24.535 3.895 34.31 10.557 9.894-5.904 18.597-7.716 26.11-5.437 3.922 8.666 2.669 19.745-3.76 33.237Z"/>
+      <path id="WinterHat4-path2" d="M28.716 10.539c-9.957 6.778-17.804 16.426-22.35 27.754C-.037 24.83-1.28 13.773 2.636 5.12c7.505-2.276 16.198-.47 26.08 5.419Zm100.943 27.818c-4.538-11.346-12.386-21.01-22.349-27.8 9.894-5.904 18.597-7.716 26.11-5.437 3.922 8.666 2.669 19.745-3.76 33.237Z"/>
+      <path id="WinterHat4-path3" d="M21.862 15.96a61.277 61.277 0 0 0-11.433 14.08c-2.925-8.108-3.426-13.719-1.502-16.832 2.651-1.146 6.963-.23 12.935 2.751Zm103.49 13.714a61.284 61.284 0 0 0-11.274-13.77c5.803-2.852 10.005-3.715 12.608-2.59 1.886 3.053 1.442 8.506-1.333 16.36Z"/>
+      <path id="WinterHat4-path4" d="M67.285 61.451C83.23 49.817 105.159 44 133.073 44c27.912 0 49.799 5.817 65.659 17.45A8 8 0 0 1 202 67.9v30.47a4 4 0 0 1-6.135 3.383C179.223 91.25 158.536 86 133.805 86c-24.922 0-46.165 5.331-63.73 15.994A4 4 0 0 1 64 98.575V67.914a8 8 0 0 1 3.285-6.463Z"/>
+      <filter id="filter1" width="101.4%" height="106.8%" x="-.7%" y="-1.7%" filterUnits="objectBoundingBox">
+        <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+        <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+      </filter>
+    </defs>
+    <mask id="WinterHat4-mask1" fill="#fff">
+      <use href="#WinterHat4-path5"/>
+    </mask>
+    <g id="Top/Accessories/Winter-Hat-4" transform="translate(-1)">
+      <g id="hat" transform="translate(65 4)">
+        <mask id="WinterHat4-mask2" fill="#fff">
+          <use href="#WinterHat4-path1"/>
+        </mask>
+        <use fill="var(--avataaar-top-color)" class="CustomColor" href="#WinterHat4-path1"/>
+        <mask id="WinterHat4-mask3" fill="#fff">
+          <use href="#WinterHat4-path2"/>
+        </mask>
+        <use id="shadow" fill="#000" href="#WinterHat4-path2" opacity=".24"/>
+        <mask id="WinterHat4-mask4" fill="#fff">
+          <use href="#WinterHat4-path3"/>
+        </mask>
+        <use id="light" fill="#FFF" href="#WinterHat4-path3" opacity=".3"/>
+      </g>
+      <g id="hat-front">
+        <use filter="url('#WinterHat4-path4')" href="#WinterHat4-path4"/>
+        <use fill="#F4F4F4" href="#WinterHat4-path4"/>
+      </g>
+    </g>
+  </g>
+</svg>
