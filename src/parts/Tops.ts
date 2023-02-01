@@ -1,4 +1,4 @@
-import type { SVGComponentList } from '@/Types';
+import type { ComponentList } from '@/Types';
 
 import Eyepatch from '@/parts/tops/Eyepatch.svg?component';
 import LongHairMiaWallace from '@/parts/tops/LongHairMiaWallace.svg?component';
@@ -37,7 +37,7 @@ import LongHairFroBand from '@/parts/tops/LongHairFroBand.svg?component';
 import ShortHairShaggyMullet from '@/parts/tops/ShortHairShaggyMullet.svg?component';
 import WinterHat4 from '@/parts/tops/WinterHat4.svg?component';
 
-const Tops: SVGComponentList = {
+const Tops: ComponentList = {
   Eyepatch,
   Hat,
   Hijab,
