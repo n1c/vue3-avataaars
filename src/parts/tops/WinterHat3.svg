@@ -2,22 +2,12 @@
   <g id="Top">
     <defs>
       <path id="WinterHat3-path3" d="M0 0h264v280H0z"/>
-      <path id="WinterHat3-path1" d="M66 0c36.45 0 66 29.55 66 66v5H0v-5C0 29.55 29.55 0 66 0Z"/>
-      <path id="WinterHat3-path2" d="M67.285 61.451C83.23 49.817 105.159 44 133.073 44c27.912 0 49.799 5.817 65.659 17.45A8 8 0 0 1 202 67.9v30.47a4 4 0 0 1-6.135 3.383C179.223 91.25 158.536 86 133.805 86c-24.922 0-46.165 5.331-63.73 15.994A4 4 0 0 1 64 98.575V67.914a8 8 0 0 1 3.285-6.463Z"/>
-      <filter id="filter1" width="101.4%" height="106.8%" x="-.7%" y="-1.7%" filterUnits="objectBoundingBox">
-        <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
-        <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
-      </filter>
+      <path id="WinterHat3-path1" d="M66 0c36.45 0 66 29.55 66 66v5H0v-5C0 29.55 29.55 0 66 0"/>
+      <path id="WinterHat3-path2" d="M67.285 61.451Q91.202 44 133.073 44q41.869 0 65.659 17.45A8 8 0 0 1 202 67.9v30.47a4 4 0 0 1-6.135 3.383Q170.902 85.999 133.805 86q-37.383 0-63.73 15.994A4 4 0 0 1 64 98.575V67.914a8 8 0 0 1 3.285-6.463"/>
     </defs>
-    <mask id="WinterHat3-mask1" fill="#fff">
-      <use href="#WinterHat3-path3"/>
-    </mask>
     <g id="Top/Accessories/Winter-Hat-3" transform="translate(-1)">
       <g id="hat" transform="translate(67 12)">
         <circle id="puff" cx="66" cy="8" r="20" fill="#F4F4F4"/>
-        <mask id="WinterHat3-mask2" fill="#fff">
-          <use href="#WinterHat3-path1"/>
-        </mask>
         <use fill="var(--avataaar-top-color)" class="CustomColor" href="#WinterHat3-path1"/>
       </g>
       <g id="hat-front">

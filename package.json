@@ -1,6 +1,6 @@
 {
   "name": "vue3-avataaars",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "type": "module",
   "author": "Nic M <hi@n1c.dev>",
   "files": [
@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/n1c/vue3-avataaars.git"
+    "url": "git+https://github.com/n1c/vue3-avataaars.git"
   },
   "dependencies": {
     "md5": "^2.3.0",

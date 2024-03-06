@@ -2,20 +2,15 @@
   <g id="Top">
     <defs>
       <path id="LongHairMiaWallace-path1" d="M0 0h264v280H0z"/>
-      <path id="LongHairMiaWallace-path2" d="M148.86 69c.093 1.321.14 2.655.14 4v38c0 22.34-13.08 41.623-32 50.611v8.706c18.146 1.499 35.721 4.018 46 6.683 9.953-13.56 22.885-26.2 23-51 .085-18.985-27.676-95.572-40-111-8.138-10.188-28.695-13.55-53-14C68.695.55 48.923 6.509 41 16 30.319 28.795-.085 107.015 0 126c.116 24.8 13.048 37.44 23 51 10.279-2.665 27.854-5.184 46-6.683v-8.706C50.08 152.623 37 133.339 37 111V73c0-1.345.047-2.679.14-4h28.234l3.879-21.444L72.058 69h76.801Z"/>
+      <path id="LongHairMiaWallace-path2" d="M148.86 69q.14 1.982.14 4v38c0 22.34-13.08 41.623-32 50.611v8.706c18.146 1.499 35.721 4.018 46 6.683 9.953-13.56 22.885-26.2 23-51 .085-18.985-27.676-95.572-40-111-8.138-10.188-28.695-13.55-53-14S48.923 6.509 41 16C30.319 28.795-.085 107.015 0 126c.116 24.8 13.048 37.44 23 51 10.279-2.665 27.854-5.184 46-6.683v-8.706C50.08 152.623 37 133.339 37 111V73q0-2.018.14-4h28.234l3.879-21.444L72.058 69h76.801Z"/>
     </defs>
     <mask id="LongHairMiaWallace-mask1" fill="#fff">
       <use href="#LongHairMiaWallace-path1"/>
     </mask>
     <g id="Top/Long-Hair/Mia-Wallace" mask="url('#LongHairMiaWallace-mask1')">
       <g transform="translate(-1)">
-        <path id="Shadow" fill="#000" d="M69.033 76.213c12.938-33.084 26.613-49.626 41.025-49.626.539 0 29.253-.238 48.055-.36C178.767 35.585 193 55.304 193 78.115V93h-82.942l-2.805-23.18-3.88 23.18H69V78.115c0-.637.011-1.27.033-1.902Z" opacity=".16"/>
-        <g id="Hair" fill="none" transform="translate(40 19)">
-          <mask id="LongHairMiaWallace-mask2" fill="#fff">
-            <use href="#LongHairMiaWallace-path2"/>
-          </mask>
-          <use fill="var(--avataaar-hair-color)" class="CustomColor" href="#LongHairMiaWallace-path2"/>
-        </g>
+        <path id="Shadow" fill="#000" d="M69.033 76.213q19.407-49.626 41.025-49.626c.539 0 29.253-.238 48.055-.36C178.767 35.585 193 55.304 193 78.115V93h-82.942l-2.805-23.18-3.88 23.18H69V78.115q0-.955.033-1.902" opacity=".16"/>
+        <use id="Hair" fill="var(--avataaar-hair-color)" class="CustomColor" href="#LongHairMiaWallace-path2" transform="translate(40 19)"/>
       </g>
     </g>
   </g>

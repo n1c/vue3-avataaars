@@ -8,7 +8,7 @@ module.exports = {
     name: 'preset-default',
     params: {
       overrides: {
-        cleanupIds: false,
+        cleanupIds: false, // This seems to break the SVGs
       },
     },
   }],

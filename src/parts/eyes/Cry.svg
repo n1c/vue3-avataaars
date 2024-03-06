@@ -2,7 +2,7 @@
   <g transform="translate(76 82)">
     <g id="Eyes/Cry" transform="translate(0 8)">
       <circle cx="30" cy="22" r="6" class="CustomColor" opacity=".6"/>
-      <path id="Drop" fill="#92D9FF" d="M25 27s-6 7.27-6 11.27a6 6 0 1 0 12 0c0-4-6-11.27-6-11.27Z"/>
+      <path id="Drop" fill="#92D9FF" d="M25 27s-6 7.27-6 11.27a6 6 0 1 0 12 0c0-4-6-11.27-6-11.27"/>
       <circle cx="82" cy="22" r="6" class="CustomColor" opacity=".6"/>
     </g>
   </g>

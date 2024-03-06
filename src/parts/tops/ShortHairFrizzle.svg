@@ -2,26 +2,13 @@
   <g id="Top">
     <defs>
       <path id="ShortHairFrizzle-path2" d="M0 0h264v280H0z"/>
-      <path id="ShortHairFrizzle-path1" d="M90.91 55.361h84.176c18.247-10.527 21.673-29.21 8.764-45.435-3.214-4.04-8.764 11.75-25.821 12.724-17.058.975-15.42-6.3-33.571-3.576-18.152 2.724-16.146 17.304-27.99 20.803-7.897 2.332-9.75 7.494-5.558 15.484Z"/>
-      <filter id="filter1" width="101.5%" height="108%" x="-.8%" y="-2%" filterUnits="objectBoundingBox">
-        <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
-        <feColorMatrix in="shadowOffsetOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.16 0"/>
-        <feMerge>
-          <feMergeNode in="shadowMatrixOuter1"/>
-          <feMergeNode in="SourceGraphic"/>
-        </feMerge>
-      </filter>
+      <path id="ShortHairFrizzle-path1" d="M90.91 55.361h84.176c18.247-10.527 21.673-29.21 8.764-45.435-3.214-4.04-8.764 11.75-25.821 12.724s-15.42-6.3-33.571-3.576c-18.152 2.724-16.146 17.304-27.99 20.803q-11.846 3.499-5.558 15.484"/>
     </defs>
     <mask id="ShortHairFrizzle-mask2" fill="#fff">
       <use href="#ShortHairFrizzle-path2"/>
     </mask>
     <g id="Top/Short-Hair/Frizzle" mask="url('#ShortHairFrizzle-mask2')">
-      <g transform="translate(-1)">
-        <mask id="ShortHairFrizzle-mask1" fill="#fff">
-          <use href="#ShortHairFrizzle-path1"/>
-        </mask>
-        <use fill="var(--avataaar-hair-color)" class="CustomColor" href="#ShortHairFrizzle-path1"/>
-      </g>
+      <use fill="var(--avataaar-hair-color)" class="CustomColor" href="#ShortHairFrizzle-path1" transform="translate(-1)"/>
     </g>
   </g>
 </svg>
