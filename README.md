@@ -15,11 +15,11 @@ npm install vue3-avataaars
 
 ## Usage
 
-While the library enables random avatars, the component itself requires a full set of parameters. The assumption here is that it is useful to know what parameters went into creating an avatar. For example, so that those parameters can be persisted.
+The library comes with 2 main parts. An `Avatar` component for use in templates and `Factory` method for generating an object of parameters for your Avatar (e.g. hair color, clothes type etc).
 
 ```ts
 import { Avatar, Factory } from 'vue3-avataaars';
-const props = Factory()
+const props = Factory();
 ```
 
 ```vue
